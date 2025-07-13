@@ -4,6 +4,7 @@ import { z } from "zod";
 import process from "process";
 import winston from "winston";
 import path from "path";
+import { time } from "console";
 
 const server = new McpServer({
   name: "hello-world-server",
@@ -18,7 +19,9 @@ const logger = winston.createLogger({
   level: "debug",
   format: winston.format.combine(
     winston.format.timestamp(),
-    winston.format.json()
+    winston.format.printf(({ level, message, timestamp }) => {
+      return `${timestamp} [${level.toUpperCase()}] - ${message}`;
+    })
   ),
   transports: [
     new winston.transports.File({
@@ -34,11 +37,11 @@ if (true || process.env.CONSOLE_LOGGING === "true") {
 
 // Add logging functionality
 server.tool(
-  "hello-world",
+  "hello-world-demo",
   "A simple Hello World tool",
   {},
   async () => {
-    logger.debug("Debug: hello-world tool invoked");
+    logger.debug(`Debug: hello-world-demo tool invoked. ${time()} at ${new Date().toISOString()}  ${process.pid}`);
     return {
       content: [
         {

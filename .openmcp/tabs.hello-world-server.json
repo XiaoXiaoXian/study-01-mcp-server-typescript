@@ -1,20 +1,280 @@
 {
-  "clientId": "7c1d6be3-6be3-5d6be3e6932-8d6be3e693236b4-236b4708",
-  "currentIndex": 0,
+  "clientId": "97e00531-0531-5005316d90e-8005316d90e42d9-e42d941c",
+  "currentIndex": 2,
   "tabs": [
     {
-      "name": "资源",
-      "icon": "icon-file",
+      "name": "工具",
+      "icon": "icon-tool",
       "type": "blank",
-      "componentIndex": 0,
+      "componentIndex": 2,
+      "storage": {
+        "activeNames": [],
+        "autoDetectDiagram": {
+          "edges": [],
+          "views": []
+        },
+        "formData": {},
+        "currentToolName": "hello-world-demo",
+        "lastToolCallResponse": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Hello, World!"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "交互测试",
+      "icon": "icon-robot",
+      "type": "blank",
+      "componentIndex": 3,
       "storage": {
         "activeNames": [
           0
         ],
-        "formData": {},
-        "templateActiveNames": [
+        "messages": [
+          {
+            "role": "user",
+            "content": "你帮我测试一下这个mcp 是否能正常工作",
+            "extraInfo": {
+              "created": 1752415418171,
+              "state": "success",
+              "serverName": "deepseek",
+              "enableXmlWrapper": false
+            }
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "id": "call_0_d035611a-0f3e-4548-b366-e16ec217f595",
+                "index": 0,
+                "type": "function",
+                "function": {
+                  "name": "hello-world-demo",
+                  "arguments": "{}"
+                }
+              }
+            ],
+            "extraInfo": {
+              "created": 1752415422298,
+              "state": "success",
+              "serverName": "deepseek",
+              "enableXmlWrapper": false
+            }
+          },
+          {
+            "role": "tool",
+            "index": 0,
+            "tool_call_id": "call_0_d035611a-0f3e-4548-b366-e16ec217f595",
+            "content": [
+              {
+                "type": "text",
+                "text": "Hello, World!"
+              }
+            ],
+            "extraInfo": {
+              "created": 1752415422305,
+              "state": "success",
+              "serverName": "deepseek",
+              "usage": {
+                "prompt_tokens": 81,
+                "completion_tokens": 16,
+                "total_tokens": 97,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                },
+                "prompt_cache_hit_tokens": 0,
+                "prompt_cache_miss_tokens": 81
+              },
+              "enableXmlWrapper": false
+            }
+          },
+          {
+            "role": "assistant",
+            "content": "测试结果：工具返回了 \"Hello, World!\"，说明该工具可以正常工作。如果需要进一步测试其他功能，请告诉我！",
+            "extraInfo": {
+              "created": 1752415427086,
+              "state": "success",
+              "serverName": "deepseek",
+              "usage": {
+                "prompt_tokens": 115,
+                "completion_tokens": 27,
+                "total_tokens": 142,
+                "prompt_tokens_details": {
+                  "cached_tokens": 64
+                },
+                "prompt_cache_hit_tokens": 64,
+                "prompt_cache_miss_tokens": 51
+              },
+              "enableXmlWrapper": false
+            }
+          },
+          {
+            "role": "user",
+            "content": "你帮我测试一下这个mcp 是否能正常工作",
+            "extraInfo": {
+              "created": 1752417447985,
+              "state": "success",
+              "serverName": "deepseek",
+              "enableXmlWrapper": false
+            }
+          },
+          {
+            "role": "assistant",
+            "content": "目前我无法直接测试或验证您提到的 \"mcp\" 是否正常工作，因为您没有提供具体的工具、接口或功能的详细信息。如果您能提供以下信息，我可以更好地帮助您测试：\n\n1. **工具或功能的名称**：例如，是某个 API、脚本还是其他工具？\n2. **测试方法**：您希望如何测试？是否需要输入特定参数？\n3. **预期结果**：您期望的功能或输出是什么？\n\n如果您能提供更多细节，我可以尝试帮助您测试或验证其功能！",
+            "extraInfo": {
+              "created": 1752417455771,
+              "state": "success",
+              "serverName": "deepseek",
+              "usage": {
+                "prompt_tokens": 155,
+                "completion_tokens": 108,
+                "total_tokens": 263,
+                "prompt_tokens_details": {
+                  "cached_tokens": 128
+                },
+                "prompt_cache_hit_tokens": 128,
+                "prompt_cache_miss_tokens": 27
+              },
+              "enableXmlWrapper": false
+            }
+          }
+        ],
+        "settings": {
+          "modelIndex": 0,
+          "enableTools": [
+            {
+              "name": "hello-world-demo",
+              "description": "A simple Hello World tool",
+              "inputSchema": {
+                "type": "object",
+                "properties": {}
+              },
+              "enabled": true
+            }
+          ],
+          "enableWebSearch": false,
+          "temperature": 0.6,
+          "contextLength": 100,
+          "systemPrompt": "",
+          "enableXmlWrapper": false,
+          "parallelToolCalls": true
+        }
+      }
+    },
+    {
+      "name": "交互测试",
+      "icon": "icon-robot",
+      "type": "blank",
+      "componentIndex": 3,
+      "storage": {
+        "activeNames": [
           0
-        ]
+        ],
+        "messages": [
+          {
+            "role": "user",
+            "content": "你帮我测试一下这个mcp 是否能正常工作",
+            "extraInfo": {
+              "created": 1752417486486,
+              "state": "success",
+              "serverName": "deepseek",
+              "enableXmlWrapper": false
+            }
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "id": "call_0_ed96c3f5-2267-4fda-8ab2-49fb923963c8",
+                "index": 0,
+                "type": "function",
+                "function": {
+                  "name": "hello-world-demo",
+                  "arguments": "{}"
+                }
+              }
+            ],
+            "extraInfo": {
+              "created": 1752417491098,
+              "state": "success",
+              "serverName": "deepseek",
+              "enableXmlWrapper": false
+            }
+          },
+          {
+            "role": "tool",
+            "index": 0,
+            "tool_call_id": "call_0_ed96c3f5-2267-4fda-8ab2-49fb923963c8",
+            "content": [
+              {
+                "type": "text",
+                "text": "Hello, World!"
+              }
+            ],
+            "extraInfo": {
+              "created": 1752417491105,
+              "state": "success",
+              "serverName": "deepseek",
+              "usage": {
+                "prompt_tokens": 81,
+                "completion_tokens": 16,
+                "total_tokens": 97,
+                "prompt_tokens_details": {
+                  "cached_tokens": 64
+                },
+                "prompt_cache_hit_tokens": 64,
+                "prompt_cache_miss_tokens": 17
+              },
+              "enableXmlWrapper": false
+            }
+          },
+          {
+            "role": "assistant",
+            "content": "测试结果：工具返回了 \"Hello, World!\"，说明该工具可以正常工作。如果需要进一步测试其他功能或工具，请告诉我！",
+            "extraInfo": {
+              "created": 1752417495845,
+              "state": "success",
+              "serverName": "deepseek",
+              "usage": {
+                "prompt_tokens": 115,
+                "completion_tokens": 29,
+                "total_tokens": 144,
+                "prompt_tokens_details": {
+                  "cached_tokens": 64
+                },
+                "prompt_cache_hit_tokens": 64,
+                "prompt_cache_miss_tokens": 51
+              },
+              "enableXmlWrapper": false
+            }
+          }
+        ],
+        "settings": {
+          "modelIndex": 0,
+          "enableTools": [
+            {
+              "name": "hello-world-demo",
+              "description": "A simple Hello World tool",
+              "inputSchema": {
+                "type": "object",
+                "properties": {}
+              },
+              "enabled": true
+            }
+          ],
+          "enableWebSearch": false,
+          "temperature": 0.6,
+          "contextLength": 100,
+          "systemPrompt": "",
+          "enableXmlWrapper": false,
+          "parallelToolCalls": true
+        }
       }
     }
   ]

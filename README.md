@@ -23,6 +23,11 @@ This project is a simple MCP server implemented in TypeScript using the @modelco
    ```bash
    npx ts-node src/index.ts
    ```
+   Or 
+   ```bash
+   node  --require ts-node/register src/index.ts
+   ```
+
    Or run the server with trace warnings:
    ```bash
    node --trace-warnings --require ts-node/register src/index.ts

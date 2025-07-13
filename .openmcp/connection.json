@@ -3,13 +3,15 @@
     [
       {
         "connectionType": "STDIO",
-        "command": "npx",
+        "command": "node",
         "args": [
-          "ts-node",
+          "--trace-warnings",
+          "--require",
+          "ts-node/register",
           "src/index.ts"
         ],
         "url": "",
-        "cwd": "J:/test/mcpserver-start/demo-mcp-server-typescript",
+        "cwd": "J:/test/mcpserver-start/01",
         "oauth": "",
         "clientName": "openmcp.connect.STDIO",
         "clientVersion": "0.0.1",
@@ -32,13 +34,15 @@
     [
       {
         "connectionType": "STDIO",
-        "command": "npx",
+        "command": "node",
         "args": [
-          "ts-node",
+          "--trace-warnings",
+          "--require",
+          "ts-node/register",
           "src/index.ts"
         ],
         "url": "",
-        "cwd": "J:/test/mcpserver-start/demo-mcp-server-typescript",
+        "cwd": "J:/test/mcpserver-start/01",
         "oauth": "",
         "clientName": "openmcp.connect.STDIO",
         "clientVersion": "0.0.1",
@@ -61,13 +65,15 @@
     [
       {
         "connectionType": "STDIO",
-        "command": "npx",
+        "command": "node",
         "args": [
-          "ts-node",
+          "--trace-warnings",
+          "--require",
+          "ts-node/register",
           "src/index.ts"
         ],
         "url": "",
-        "cwd": "J:/test/mcpserver-start/demo-mcp-server-typescript",
+        "cwd": "J:/test/mcpserver-start/01",
         "oauth": "",
         "clientName": "openmcp.connect.STDIO",
         "clientVersion": "0.0.1",
@@ -85,6 +91,23 @@
         },
         "name": "hello-world-server",
         "version": "1.0.0"
+      }
+    ],
+    [
+      {
+        "connectionType": "STDIO",
+        "name": "STDIO-1752414876250",
+        "command": "",
+        "args": [
+          "node",
+          "",
+          "--require",
+          "ts-node/register",
+          "src/index.ts"
+        ],
+        "cwd": "",
+        "filePath": ".",
+        "commandString": " node  --require ts-node/register src/index.ts"
       }
     ]
   ]
