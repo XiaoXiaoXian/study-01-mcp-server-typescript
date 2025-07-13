@@ -19,6 +19,14 @@ This project is a simple MCP server implemented in TypeScript using the @modelco
    ```bash
    node build/index.js
    ```
+   Alternatively, run the server directly from the TypeScript source:
+   ```bash
+   npx ts-node src/index.ts
+   ```
+   Or run the server with trace warnings:
+   ```bash
+   node --trace-warnings --require ts-node/register src/index.ts
+   ```
 
 ## Development
 - Source files are located in the `src` directory.
