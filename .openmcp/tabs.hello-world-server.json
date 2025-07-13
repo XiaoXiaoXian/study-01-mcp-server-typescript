@@ -1,0 +1,21 @@
+{
+  "clientId": "7c1d6be3-6be3-5d6be3e6932-8d6be3e693236b4-236b4708",
+  "currentIndex": 0,
+  "tabs": [
+    {
+      "name": "资源",
+      "icon": "icon-file",
+      "type": "blank",
+      "componentIndex": 0,
+      "storage": {
+        "activeNames": [
+          0
+        ],
+        "formData": {},
+        "templateActiveNames": [
+          0
+        ]
+      }
+    }
+  ]
+}

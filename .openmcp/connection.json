@@ -1,0 +1,91 @@
+{
+  "items": [
+    [
+      {
+        "connectionType": "STDIO",
+        "command": "npx",
+        "args": [
+          "ts-node",
+          "src/index.ts"
+        ],
+        "url": "",
+        "cwd": "J:/test/mcpserver-start/demo-mcp-server-typescript",
+        "oauth": "",
+        "clientName": "openmcp.connect.STDIO",
+        "clientVersion": "0.0.1",
+        "env": {
+          "HOME": "C:\\Users\\zhihb",
+          "LOGNAME": "zhihb",
+          "PATH": "c:\\Users\\zhihb\\.vscode\\extensions\\cl.eide-3.22.0\\res\\tools\\win32\\unify_builder;C:\\Users\\zhihb\\.eide\\bin\\builder\\utils;C:\\Users\\zhihb\\.eide\\bin\\scripts;c:\\Users\\zhihb\\.vscode\\extensions\\cl.eide-3.22.0\\res\\tools\\win32\\7z;c:\\Users\\zhihb\\.vscode\\extensions\\cl.eide-3.22.0\\res\\tools\\win32\\utils;.;C:\\Users\\zhihb\\.eide\\bin\\builder\\msys\\bin;C:\\cuda\\bin;C:\\cuda\\libnvvp;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\MATLAB\\R2024b\\runtime\\win64;C:\\Program Files\\MATLAB\\R2024b\\bin;C:\\Infineon\\Developer Center Launcher;C:\\Infineon\\LauncherService;C:\\Program Files\\Process Lasso\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\zhihb\\AppData\\Local\\nvm;C:\\nvm4w\\nodejs;C:\\Program Files\\PowerShell\\7\\;C:\\Program Files (x86)\\Tencent\\微信web开发者工具\\dll;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.1\\;C:\\Users\\zhihb\\.console-ninja\\.bin;C:\\Users\\zhihb\\.local\\bin;C:\\Users\\zhihb\\AppData\\Local\\Programs\\Python\\Python313;C:\\Users\\zhihb\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\zhihb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\zhihb\\AppData\\Local\\nvm;C:\\nvm4w\\nodejs;C:\\Users\\zhihb\\AppData\\Local\\Programs\\Ollama;C:\\Users\\zhihb\\.lmstudio\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64_del;D:\\soft\\tools\\download;D:\\soft\\tools\\find;",
+          "SHELL": "C:\\WINDOWS\\system32\\cmd.exe",
+          "TERM": "未设置 (Windows 默认终端)",
+          "USER": "zhihb"
+        },
+        "serverInfo": {
+          "name": "hello-world-server",
+          "version": "1.0.0"
+        },
+        "name": "hello-world-server",
+        "version": "1.0.0"
+      }
+    ],
+    [
+      {
+        "connectionType": "STDIO",
+        "command": "npx",
+        "args": [
+          "ts-node",
+          "src/index.ts"
+        ],
+        "url": "",
+        "cwd": "J:/test/mcpserver-start/demo-mcp-server-typescript",
+        "oauth": "",
+        "clientName": "openmcp.connect.STDIO",
+        "clientVersion": "0.0.1",
+        "env": {
+          "HOME": "C:\\Users\\zhihb",
+          "LOGNAME": "zhihb",
+          "PATH": "c:\\Users\\zhihb\\.vscode\\extensions\\cl.eide-3.22.0\\res\\tools\\win32\\unify_builder;C:\\Users\\zhihb\\.eide\\bin\\builder\\utils;C:\\Users\\zhihb\\.eide\\bin\\scripts;c:\\Users\\zhihb\\.vscode\\extensions\\cl.eide-3.22.0\\res\\tools\\win32\\7z;c:\\Users\\zhihb\\.vscode\\extensions\\cl.eide-3.22.0\\res\\tools\\win32\\utils;.;C:\\Users\\zhihb\\.eide\\bin\\builder\\msys\\bin;C:\\cuda\\bin;C:\\cuda\\libnvvp;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\MATLAB\\R2024b\\runtime\\win64;C:\\Program Files\\MATLAB\\R2024b\\bin;C:\\Infineon\\Developer Center Launcher;C:\\Infineon\\LauncherService;C:\\Program Files\\Process Lasso\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\zhihb\\AppData\\Local\\nvm;C:\\nvm4w\\nodejs;C:\\Program Files\\PowerShell\\7\\;C:\\Program Files (x86)\\Tencent\\微信web开发者工具\\dll;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.1\\;C:\\Users\\zhihb\\.console-ninja\\.bin;C:\\Users\\zhihb\\.local\\bin;C:\\Users\\zhihb\\AppData\\Local\\Programs\\Python\\Python313;C:\\Users\\zhihb\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\zhihb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\zhihb\\AppData\\Local\\nvm;C:\\nvm4w\\nodejs;C:\\Users\\zhihb\\AppData\\Local\\Programs\\Ollama;C:\\Users\\zhihb\\.lmstudio\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64_del;D:\\soft\\tools\\download;D:\\soft\\tools\\find;",
+          "SHELL": "C:\\WINDOWS\\system32\\cmd.exe",
+          "TERM": "未设置 (Windows 默认终端)",
+          "USER": "zhihb"
+        },
+        "serverInfo": {
+          "name": "hello-world-server",
+          "version": "1.0.0"
+        },
+        "name": "hello-world-server",
+        "version": "1.0.0"
+      }
+    ],
+    [
+      {
+        "connectionType": "STDIO",
+        "command": "npx",
+        "args": [
+          "ts-node",
+          "src/index.ts"
+        ],
+        "url": "",
+        "cwd": "J:/test/mcpserver-start/demo-mcp-server-typescript",
+        "oauth": "",
+        "clientName": "openmcp.connect.STDIO",
+        "clientVersion": "0.0.1",
+        "env": {
+          "HOME": "C:\\Users\\zhihb",
+          "LOGNAME": "zhihb",
+          "PATH": "c:\\Users\\zhihb\\.vscode\\extensions\\cl.eide-3.22.0\\res\\tools\\win32\\unify_builder;C:\\Users\\zhihb\\.eide\\bin\\builder\\utils;C:\\Users\\zhihb\\.eide\\bin\\scripts;c:\\Users\\zhihb\\.vscode\\extensions\\cl.eide-3.22.0\\res\\tools\\win32\\7z;c:\\Users\\zhihb\\.vscode\\extensions\\cl.eide-3.22.0\\res\\tools\\win32\\utils;.;C:\\Users\\zhihb\\.eide\\bin\\builder\\msys\\bin;C:\\cuda\\bin;C:\\cuda\\libnvvp;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\MATLAB\\R2024b\\runtime\\win64;C:\\Program Files\\MATLAB\\R2024b\\bin;C:\\Infineon\\Developer Center Launcher;C:\\Infineon\\LauncherService;C:\\Program Files\\Process Lasso\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\zhihb\\AppData\\Local\\nvm;C:\\nvm4w\\nodejs;C:\\Program Files\\PowerShell\\7\\;C:\\Program Files (x86)\\Tencent\\微信web开发者工具\\dll;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.1\\;C:\\Users\\zhihb\\.console-ninja\\.bin;C:\\Users\\zhihb\\.local\\bin;C:\\Users\\zhihb\\AppData\\Local\\Programs\\Python\\Python313;C:\\Users\\zhihb\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\zhihb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\zhihb\\AppData\\Local\\nvm;C:\\nvm4w\\nodejs;C:\\Users\\zhihb\\AppData\\Local\\Programs\\Ollama;C:\\Users\\zhihb\\.lmstudio\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64_del;D:\\soft\\tools\\download;D:\\soft\\tools\\find;",
+          "SHELL": "C:\\WINDOWS\\system32\\cmd.exe",
+          "TERM": "未设置 (Windows 默认终端)",
+          "USER": "zhihb"
+        },
+        "serverInfo": {
+          "name": "hello-world-server",
+          "version": "1.0.0"
+        },
+        "name": "hello-world-server",
+        "version": "1.0.0"
+      }
+    ]
+  ]
+}

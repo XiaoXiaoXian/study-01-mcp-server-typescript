@@ -28,6 +28,11 @@ This project is a simple MCP server implemented in TypeScript using the @modelco
    node --trace-warnings --require ts-node/register src/index.ts
    ```
 
+   Or
+   ```bash
+   npx tsx src/index.ts
+```
+
 ## Development
 - Source files are located in the `src` directory.
 - Build output is located in the `build` directory.
